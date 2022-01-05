@@ -81,6 +81,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.owner = new System.Windows.Forms.TextBox();
             this.branch = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -139,6 +140,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ControlText;
+            this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.label6);
@@ -711,6 +713,16 @@
             this.branch.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.branch.Visible = false;
             // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox2.Location = new System.Drawing.Point(64, 230);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(121, 27);
+            this.textBox2.TabIndex = 133;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox2.Visible = false;
+            // 
             // Register_supplier
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -798,5 +810,6 @@
         public System.Windows.Forms.Button button3;
         public System.Windows.Forms.TextBox owner;
         public System.Windows.Forms.TextBox branch;
+        public System.Windows.Forms.TextBox textBox2;
     }
 }
